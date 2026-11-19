@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pinehouse College Harare | Cambridge &amp; ZIMSEC Secondary School</title>
+<meta name="description" content="Pinehouse College Harare is a private secondary school offering Forms 1 to 6 under the Cambridge International and ZIMSEC curricula.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{--g:#007936;--gd:#005a27;--gx:#003d1b;--gt:#e8f3ec;--gold:#ffc700;--bg:#fff;--bg2:#f4f7f5;--tx:#1c2a22;--mu:#52625a;--ln:#d9e3dd;--lk:#007936;
+--hf:'Newsreader',Georgia,'Times New Roman',serif;--bf:'Figtree',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1712;--bg2:#15211a;--tx:#e8f0eb;--mu:#a5b5ab;--ln:#2a3a31;--gt:#1a2b21;--lk:#4fc07f}}
+:root[data-theme="dark"]{--bg:#0e1712;--bg2:#15211a;--tx:#e8f0eb;--mu:#a5b5ab;--ln:#2a3a31;--gt:#1a2b21;--lk:#4fc07f}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:calc(90px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 var(--bf);-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--gx);z-index:60}
+img{max-width:100%;display:block}
+a{color:var(--lk)}
+h1,h2,h3{font-family:var(--hf);line-height:1.15;margin:0 0 .5em;font-weight:600;color:var(--tx)}
+h1{font-size:clamp(2.3rem,6vw,4rem)}h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}h3{font-size:1.3rem}
+p{margin:0 0 1em;max-width:68ch}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+.btn{display:inline-block;padding:.8em 1.5em;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font:600 1rem var(--bf);line-height:1.2}
+.btn-gold{background:var(--gold);color:#12301e}.btn-gold:hover{background:#ffd633}
+.btn-g{background:var(--g);color:#fff}.btn-g:hover{background:var(--gd)}
+.btn-o{border-color:#fff;color:#fff;background:transparent}.btn-o:hover{background:rgba(255,255,255,.15)}
+.btn-ol{border-color:var(--g);color:var(--lk)}
+.ph{background:rgba(255,199,0,.28);border-bottom:2px dotted #b38b00;padding:0 2px}
+/* top bar + header */
+.top{background:var(--gx);color:#dcebe2;font-size:.85rem}
+.top .wrap{display:flex;gap:6px 22px;flex-wrap:wrap;justify-content:space-between;padding:7px 0}
+.top a{color:#dcebe2;text-decoration:none}.top span{white-space:nowrap}
+.soc{display:flex;gap:12px;align-items:center}.soc svg{width:18px;height:18px;fill:currentColor}
+header.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--bg);border-bottom:1px solid var(--ln)}
+.hd .wrap{display:flex;align-items:center;gap:18px;min-height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--tx)}
+.brand img{width:54px;height:54px;object-fit:contain}
+.brand b{font:600 1.35rem/1 var(--hf);display:block}.brand small{color:var(--mu);font-size:.78rem}
+nav{margin-left:auto;display:flex;align-items:center;gap:4px}
+nav a.l{padding:.55em .8em;color:var(--tx);text-decoration:none;font-weight:500;border-bottom:3px solid transparent}
+nav a.l:hover,nav a.l.on{border-color:var(--g);color:var(--lk)}
+.burger{display:none;margin-left:auto;background:none;border:1px solid var(--ln);border-radius:6px;padding:9px 11px;color:var(--tx);cursor:pointer}
+.burger svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2}
+@media(max-width:940px){.burger{display:block}
+nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);flex-direction:column;align-items:stretch;padding:10px 20px 18px;border-bottom:1px solid var(--ln);gap:0}
+nav.open{display:flex}nav a.l{padding:.8em 0;border-bottom:1px solid var(--ln)}nav .btn{margin-top:12px;text-align:center}.top .hide{display:none}}
+/* pages */
+.page{display:none}.page.on{display:block}
+section.s{padding:clamp(48px,8vw,92px) 0}.alt{background:var(--bg2)}
+.sub{color:var(--mu);font-size:1.1rem}
+.hero{position:relative;color:#fff;min-height:min(86vh,720px);display:flex;align-items:center;overflow:hidden;background:var(--gx)}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(95deg,rgba(0,45,20,.93) 8%,rgba(0,70,30,.7) 50%,rgba(0,70,30,.25))}
+.hero .wrap{position:relative;z-index:2;padding:60px 0}
+.hero h1{color:#fff;max-width:14ch;animation:rise .9s ease both}
+.hero p{font-size:1.2rem;color:#eaf5ee;animation:rise .9s .15s ease both}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px;animation:rise .9s .3s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+.badge{display:inline-flex;gap:10px;align-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:6px 14px;border-radius:99px;font-size:.92rem;margin-bottom:20px}
+.pg{background:var(--gx);color:#fff;padding:clamp(44px,7vw,80px) 0;border-bottom:6px solid var(--gold)}
+.pg h1{color:#fff;font-size:clamp(2rem,5vw,3.2rem);margin:0}.pg p{color:#cfe5d7;margin:.6em 0 0;font-size:1.1rem}
+.grid{display:grid;gap:22px}.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}.g4{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.split{display:grid;gap:clamp(24px,5vw,60px);grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));align-items:center}
+.split img{border-radius:10px;width:100%;box-shadow:0 10px 30px rgba(0,40,20,.18)}
+.card{background:var(--bg);border:1px solid var(--ln);border-top:4px solid var(--g);border-radius:8px;padding:24px}
+.alt .card{background:var(--bg)}
+.card h3{margin-bottom:.35em}.card p{margin:0;color:var(--mu)}
+.ic{width:44px;height:44px;border-radius:50%;background:var(--gt);display:grid;place-items:center;margin-bottom:14px}
+.ic svg{width:22px;height:22px;stroke:var(--lk);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(240px,1fr);gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.strip img{height:230px;width:100%;object-fit:cover;border-radius:8px;scroll-snap-align:start}
+.cta{background:var(--g);color:#fff;text-align:center;padding:clamp(44px,7vw,76px) 0}
+.cta h2{color:#fff}.cta p{margin-inline:auto;color:#e6f4ec}
+.list{padding:0;list-style:none;margin:0 0 1em}.list li{padding:.45em 0 .45em 1.7em;position:relative}
+.list li::before{content:"";position:absolute;left:0;top:.95em;width:.8em;height:.45em;border-left:2.5px solid var(--g);border-bottom:2.5px solid var(--g);transform:rotate(-45deg) translateY(-50%)}
+.tag{display:inline-block;background:var(--gt);color:var(--lk);border-radius:99px;padding:.25em .9em;font-weight:600;font-size:.92rem;margin:0 8px 8px 0}
+.steps{counter-reset:s;display:grid;gap:16px;padding:0;list-style:none;margin:0}
+.steps li{counter-increment:s;display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;background:var(--g);color:#fff;display:grid;place-items:center;font:600 1.3rem var(--hf)}
+.steps b{display:block}
+.tw{overflow-x:auto;border:1px solid var(--ln);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:420px}
+th,td{padding:15px 20px;text-align:left;border-bottom:1px solid var(--ln)}
+thead th{background:var(--g);color:#fff}tbody tr:nth-child(even){background:var(--bg2)}td:last-child{font-weight:600;white-space:nowrap}
+.note{background:var(--gt);border-left:4px solid var(--g);padding:14px 18px;border-radius:0 8px 8px 0;margin-top:20px;max-width:none}
+.gal{columns:3 260px;column-gap:12px}
+.gal button{display:block;width:100%;margin:0 0 12px;padding:0;border:0;background:none;cursor:zoom-in;break-inside:avoid;border-radius:8px;overflow:hidden}
+.gal img{width:100%;transition:transform .35s}.gal button:hover img{transform:scale(1.03)}
+dialog{border:0;background:transparent;padding:0;max-width:96vw;max-height:94vh;overflow:visible}
+dialog::backdrop{background:rgba(0,20,10,.9)}
+dialog img{max-width:96vw;max-height:84vh;margin:auto;border-radius:6px}
+dialog p{color:#fff;text-align:center;margin:10px auto 0}
+.lb{position:absolute;top:-6px;right:-6px;background:var(--gold);border:0;border-radius:50%;width:42px;height:42px;font-size:1.3rem;cursor:pointer}
+.nv{position:fixed;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.9);border:0;border-radius:50%;width:46px;height:46px;font-size:1.4rem;cursor:pointer}
+form{display:grid;gap:16px}label{font-weight:600;display:grid;gap:6px;font-size:.95rem}
+input,select,textarea{font:inherit;padding:.75em .9em;border:1.5px solid var(--ln);border-radius:6px;background:var(--bg);color:var(--tx);width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--g)}
+.two{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.info p{margin:0 0 .9em}.info b{display:block;color:var(--lk)}
+.map{border:0;width:100%;height:340px;border-radius:8px;background:var(--gt)}
+footer{background:var(--gx);color:#cfe0d6;padding:56px 0 24px}
+footer h3{color:#fff;font-size:1.1rem;font-family:var(--bf)}
+footer a{color:#cfe0d6;text-decoration:none}footer a:hover{color:var(--gold)}
+footer ul{list-style:none;padding:0;margin:0}footer li{padding:.25em 0}
+footer .fl{display:flex;gap:12px;align-items:center;margin-bottom:14px}footer .fl img{width:60px;background:#fff;border-radius:8px;padding:4px}
+.copy{border-top:1px solid rgba(255,255,255,.18);margin-top:34px;padding-top:18px;font-size:.88rem}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:70;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.wa svg{width:32px;height:32px;fill:#fff}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-999px" onfocus="this.style.left='8px'" onblur="this.style.left='-999px'">Skip to content</a>
+<div class="top"><div class="wrap">
+ <span class="hide">Mon–Fri, 7:30 AM – 4:00 PM</span>
+ <span><a href="tel:+263242706476">+263 242 706 476</a> &nbsp;|&nbsp; <a href="mailto:pinehouseschool@gmail.com">pinehouseschool@gmail.com</a></span>
+ <span class="soc">
+  <!-- EDIT: replace these placeholder social URLs -->
+  <a href="https://www.facebook.com/" aria-label="Pinehouse College on Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.5-3.2h-3.2V7.9c0-.9.4-1.7 1.8-1.7h1.5V3.4S15.5 3.2 14.3 3.2c-2.6 0-4.1 1.5-4.1 4.2v2.4H7.5V13h2.7v8z"/></svg></a>
+  <a href="https://www.instagram.com/" aria-label="Pinehouse College on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 7.3A4.7 4.7 0 1 0 12 16.7 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM17.2 5.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM16 2.5H8A5.5 5.5 0 0 0 2.5 8v8A5.5 5.5 0 0 0 8 21.5h8a5.5 5.5 0 0 0 5.5-5.5V8A5.5 5.5 0 0 0 16 2.5zm3.8 13.5a3.8 3.8 0 0 1-3.8 3.8H8A3.8 3.8 0 0 1 4.2 16V8A3.8 3.8 0 0 1 8 4.2h8A3.8 3.8 0 0 1 19.8 8z"/></svg></a>
+ </span>
+</div></div>
+<header class="hd"><div class="wrap">
+ <a class="brand" href="#home"><img src="images/logo.png" alt="Pinehouse College crest"><span><b>Pinehouse College</b><small>House of Excellence</small></span></a>
+ <button class="burger" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+ <nav id="nav">
+  <a class="l" href="#home">Home</a><a class="l" href="#about">About Us</a><a class="l" href="#academics">Academics</a><a class="l" href="#admissions">Admissions &amp; Fees</a><a class="l" href="#gallery">Gallery</a><a class="l" href="#contact">Contact</a>
+  <a class="btn btn-gold" href="#admissions">Apply Now</a>
+ </nav>
+</div></header>
+
+<main id="main">
+<!-- HOME -->
+<div class="page" id="p-home" data-title="Pinehouse College Harare | Cambridge &amp; ZIMSEC Secondary School" data-desc="Pinehouse College Harare is a private secondary school offering Forms 1 to 6 under the Cambridge International and ZIMSEC curricula. Apply now.">
+ <div class="hero"><img data-use="classroom" alt="Pinehouse College students writing in class in their green blazers"><div class="wrap">
+  <span class="badge">Registered Cambridge International School</span>
+  <h1>Pinehouse College Harare</h1>
+  <p>House of Excellence. A private secondary school in the heart of Harare, taking learners from Form 1 to Form 6.</p>
+  <div class="acts"><a class="btn btn-gold" href="#admissions">Apply Now</a><a class="btn btn-o" href="#contact">Contact Us</a></div>
+ </div></div>
+
+ <section class="s"><div class="wrap split">
+  <div><h2>Welcome to Pinehouse College</h2>
+   <p class="ph"> Welcome to Pinehouse College. We are a school where every learner is known by name, challenged to do their best and supported to get there. Our small classes, caring teachers and clear values help young people grow into confident, capable adults.</p>
+   <p class="ph"> Mr Gavaza School Head</p>
+   <a class="btn btn-g" href="#about">Learn more about us</a></div>
+  <img data-use="lower6" alt="Lower Sixth learners of 2025 posing together in school uniform">
+ </div></section>
+
+ <section class="s alt"><div class="wrap">
+  <h2>Why families choose Pinehouse College</h2>
+  <div class="grid g4" style="margin-top:28px">
+   <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c3 2.5 9 2.5 12 0v-4.5"/></svg></div><h3>Cambridge and ZIMSEC</h3><p>Two respected pathways under one roof, so each learner follows the route that suits them.</p></div>
+   <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M16 14c3 0 5 2 5 5"/></svg></div><h3>Smaller class sizes</h3><p>More attention for every learner, and teachers who know how each one is progressing.</p></div>
+   <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="4"/></svg></div><h3>Remedial lessons</h3><p>Extra help for learners who need to catch up or build confidence in a subject.</p></div>
+   <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V4h6v3M3 13h18"/></svg></div><h3>Commercial courses</h3><p>Practical business subjects that prepare learners for work and further study.</p></div>
+  </div></div></section>
+
+ <section class="s"><div class="wrap">
+  <h2>Our curricula</h2>
+  <div class="grid g2" style="margin-top:24px">
+   <div class="card"><h3>Cambridge International</h3><p>Lower Secondary Checkpoint, IGCSE and GCE AS and A Level (A2), recognised by universities around the world.</p></div>
+   <div class="card"><h3>ZIMSEC</h3><p>The national Zimbabwean curriculum, taught to the same standard of care and preparation.</p></div>
+  </div>
+  <p style="margin-top:22px"><a class="btn btn-ol" href="#academics">Explore academics</a></p>
+ </div></section>
+
+ <section class="s alt"><div class="wrap">
+  <h2>Life at Pinehouse</h2>
+  <div class="strip" id="strip" style="margin-top:22px" aria-label="Photo highlights"></div>
+  <p style="margin-top:18px"><a class="btn btn-ol" href="#gallery">View the full gallery</a></p>
+ </div></section>
+
+ <div class="cta"><div class="wrap"><h2>Places are limited for Forms 1 to 6</h2><p>Registration is in progress. Speak to our team about joining Pinehouse College.</p>
+  <a class="btn btn-gold" href="#admissions">Apply Now</a> <a class="btn btn-o" href="#contact">Contact Us</a></div></div>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="p-about" data-title="About Pinehouse College Harare | Our Story, Mission and Values" data-desc="Learn about Pinehouse College Harare: our mission, values and why families choose us for Cambridge and ZIMSEC secondary education.">
+ <div class="pg"><div class="wrap"><h1>About Pinehouse College Harare</h1><p>A school built around excellence, discipline and care.</p></div></div>
+ <section class="s"><div class="wrap split">
+  <div><h2>Our school</h2>
+   <p>Pinehouse College is a private secondary school in Harare’s central business district, teaching Forms 1 to 6 under the Cambridge International and ZIMSEC curricula. Our motto is “House of Excellence”.</p>
+   <p class="ph"> – School history and overview Add a few sentences here about when Pinehouse College was founded, who founded it and how the school has grown.</p></div>
+  <img data-use="prefects" alt="Pinehouse College prefects and a teacher seated in a row">
+ </div></section>
+ <section class="s alt"><div class="wrap">
+  <div class="grid g2">
+   <div class="card"><h3>Our mission</h3><p class="ph"> – Mission statement To provide a high-quality, values-based education that equips every learner to achieve academic excellence and become a responsible citizen.</p></div>
+   <div class="card"><h3>Our vision</h3><p class="ph"> – Vision statement To be the school of choice in Harare for learners who aim high and families who value character.</p></div>
+  </div>
+  <h2 style="margin-top:44px">Our values</h2>
+  <div class="grid g4">
+   <div class="card"><h3>Academic excellence</h3><p class="ph">[PLACEHOLDER] A short line on high expectations.</p></div>
+   <div class="card"><h3>Discipline and values</h3><p class="ph">[PLACEHOLDER] A short line on conduct and respect.</p></div>
+   <div class="card"><h3>Holistic development</h3><p class="ph">[PLACEHOLDER] A short line on developing the whole learner.</p></div>
+   <div class="card"><h3>Safe environment</h3><p class="ph">[PLACEHOLDER] A short line on care and safety.</p></div>
+  </div></div></section>
+ <section class="s"><div class="wrap split">
+  <div><h2>Why choose Pinehouse College</h2>
+   <ul class="list"><li>Cambridge International and ZIMSEC pathways</li><li>Smaller class sizes with more individual attention</li><li>Remedial lessons for learners who need extra help</li><li>Commercial courses alongside core subjects</li><li>Sport, culture and community activities, from netball and football to Heritage Day and outreach campaigns</li><li>A central Harare location, close to transport</li></ul></div>
+  <div><img data-use="cert" alt="Cambridge International Certificate of Registration for Pine House College, registered school ZW955, issued 29 May 2025">
+   <p class="sub" style="margin-top:12px;font-size:.95rem">Registered Cambridge International School (ZW955), issued 29 May 2025.</p></div>
+ </div></section>
+</div>
+
+<!-- ACADEMICS -->
+<div class="page" id="p-academics" data-title="Academics at Pinehouse College Harare | Cambridge IGCSE, A Level and ZIMSEC" data-desc="Cambridge Checkpoint, IGCSE, AS and A Level, ZIMSEC and commercial courses at Pinehouse College Harare, with smaller classes and remedial lessons.">
+ <div class="pg"><div class="wrap"><h1>Academics</h1><p>Two curricula, one supportive school, Forms 1 to 6.</p></div></div>
+ <section class="s"><div class="wrap">
+  <h2>Cambridge International</h2>
+  <p>Pinehouse College is a registered Cambridge International School. Learners progress through three stages:</p>
+  <div class="grid g3">
+   <div class="card"><h3>Lower Secondary Checkpoint</h3><p>The foundation stage, building skills in the core subjects.</p></div>
+   <div class="card"><h3>IGCSE</h3><p>An internationally recognised qualification taken at the end of the middle years.</p></div>
+   <div class="card"><h3>GCE AS and A2</h3><p>Advanced study in the upper school, preparing learners for university.</p></div>
+  </div></div></section>
+ <section class="s alt"><div class="wrap split">
+  <div><h2>ZIMSEC</h2><p>Learners who follow the national curriculum are prepared for ZIMSEC examinations by the same dedicated teachers.</p>
+   <h2 style="margin-top:1.2em">Commercial courses</h2><p>Practical commercial subjects give learners useful skills for the workplace and for further study.</p>
+   <p class="ph">[PLACEHOLDER – List the commercial courses offered]</p></div>
+  <img data-use="classroom" alt="Learners writing in a Pinehouse College classroom">
+ </div></section>
+ <section class="s"><div class="wrap">
+  <h2>Subjects offered</h2>
+  <div><span class="tag">English Language</span><span class="tag">Mathematics</span><span class="tag">Combined Science</span><span class="tag">Geography</span><span class="tag">Commerce</span><span class="tag">Accounts</span><span class="tag">ICT</span><span class="tag">History</span></div>
+  <p class="sub ph">[PLACEHOLDER – Add any further subjects, or note which are offered at which level.]</p>
+ </div></section>
+ <section class="s alt"><div class="wrap">
+  <h2>Student support</h2>
+  <div class="grid g2">
+   <div class="card"><h3>Smaller class sizes</h3><p>Teachers can give each learner time and attention, and spot problems early.</p></div>
+   <div class="card"><h3>Remedial lessons</h3><p>Extra lessons help learners strengthen weak areas and build confidence.</p></div>
+  </div></div></section>
+ <div class="cta"><div class="wrap"><h2>Ready to join us?</h2><p>See how to apply and what it costs.</p><a class="btn btn-gold" href="#admissions">Admissions &amp; Fees</a></div></div>
+</div>
+
+<!-- ADMISSIONS -->
+<div class="page" id="p-admissions" data-title="Admissions &amp; Fees | Pinehouse College Harare" data-desc="How to apply to Pinehouse College Harare, with registration and tuition fees for Forms 1 to 6.">
+ <div class="pg"><div class="wrap"><h1>Admissions &amp; Fees</h1><p>Registration is in progress for Forms 1 to 6. Places are limited.</p></div></div>
+ <section class="s"><div class="wrap split" style="align-items:start">
+  <div><h2>How to apply</h2>
+   <ol class="steps">
+    <li><div><b>Make an enquiry</b>Call, WhatsApp, email or visit us at 23 Tanganyika House.</div></li>
+    <li><div><b>Meet the school</b><span class="ph"> Tour and meeting with the admissions team.</span></div></li>
+    <li><div><b>Submit your documents</b><span class="ph"> List required documents, e.g. birth certificate, last school report, transfer letter.</span></div></li>
+    <li><div><b>Pay the registration fee</b>A one-off fee of $75 secures your child’s place.</div></li>
+    <li><div><b>Start at Pinehouse</b>We will confirm the start date and uniform details.</div></li>
+   </ol>
+   <p style="margin-top:22px"><a class="btn btn-g" href="#contact">Start an enquiry</a> <a class="btn btn-ol" href="https://wa.me/263776527713?text=Hello%20Pinehouse%20College%2C%20I%20would%20like%20to%20apply." target="_blank" rel="noopener">WhatsApp us</a></p></div>
+  <div><h2>Fees</h2>
+   <div class="tw"><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody>
+    <tr><td>Registration fee (one-off)</td><td>$75</td></tr>
+    <tr><td>Tuition, Form 1–4</td><td>approx. $450–$490 per term</td></tr>
+    <tr><td>Tuition, Form 5–6</td><td>approx. $500–$540 per term</td></tr>
+    <tr><td>Lab fee, Form 3–6</td><td>approx. $60 per term</td></tr></tbody></table></div>
+   <p class="note">Fees are subject to change. Please contact the school to confirm current rates before you apply.</p></div>
+ </div></section>
+</div>
+
+<!-- GALLERY -->
+<div class="page" id="p-gallery" data-title="Photo Gallery | Pinehouse College Harare" data-desc="Photos of classes, sport, culture and trips at Pinehouse College Harare.">
+ <div class="pg"><div class="wrap"><h1>Gallery</h1><p>Classrooms, sport, culture and community life.</p></div></div>
+ <section class="s"><div class="wrap"><div class="gal" id="gal">
+  <button><img id="g-classroom" src="images/classroom_1.jpg" alt="Learners writing notes in a Pinehouse College classroom"></button>
+  <button><img id="g-lower6" src="images/lower_6_2025.jpg" alt="Lower Sixth learners of 2025 sitting together"></button>
+  <button><img id="g-campaign" src="images/campaigns.jpg" alt="Learners holding a banner at the eye illness awareness campaign outside the school"></button>
+  <button><img id="g-sport" src="images/sport_4.jpg" alt="Girls playing netball on a sunny afternoon"></button>
+  <button><img id="g-heritage" src="images/heritage_day_2.jpg" alt="Learners in traditional dress on Heritage Day"></button>
+  <button><img id="g-radio" src="images/alpha_leos.jpg" alt="Four learners in uniform at the Radio Zimbabwe studio"></button>
+  <button><img id="g-football" src="images/sport_football_1.jpg" alt="A school football match in progress"></button>
+  <button><img id="g-heritage2" src="images/heritage_day_3.jpg" alt="Learners laughing and playing a drum on Heritage Day"></button>
+  <button><img id="g-trip" src="images/trip_highking.jpg" alt="Learners in tracksuits and green caps on a hiking trip"></button>
+  <button><img id="g-prefects" src="images/prefects.jpg" alt="Pinehouse College prefects in white blazers"></button>
+ </div></div></section>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="p-contact" data-title="Contact Pinehouse College Harare | Enquiries and Location" data-desc="Contact Pinehouse College Harare: phone, WhatsApp, email, opening hours and directions to 23 Tanganyika House, Harare CBD.">
+ <div class="pg"><div class="wrap"><h1>Contact Pinehouse College Harare</h1><p>We would love to hear from you.</p></div></div>
+ <section class="s"><div class="wrap grid g2" style="align-items:start">
+  <div><h2>Send an enquiry</h2>
+   <form id="f">
+    <div class="two"><label>Name<input name="name" required autocomplete="name"></label><label>Email<input type="email" name="email" required autocomplete="email"></label></div>
+    <div class="two"><label>Phone<input type="tel" name="phone" autocomplete="tel"></label><label>Enquiry type<select name="type"><option>Admissions</option><option>Fees</option><option>Academics</option><option>General</option></select></label></div>
+    <label>Message<textarea name="msg" rows="5" required></textarea></label>
+    <div><button class="btn btn-g" type="submit">Send enquiry</button></div>
+    <p class="sub" id="fm" style="font-size:.92rem">This opens your email app with your message ready to send.</p>
+   </form></div>
+  <div class="info"><h2>School details</h2>
+   <p><b>Address</b>23 Tanganyika House, Cnr 3rd Street &amp; Kwame Nkrumah Avenue, Harare CBD, Zimbabwe</p>
+   <p><b>Hours</b>Monday to Friday, 7:30 AM – 4:00 PM</p>
+   <p><b>Phone / WhatsApp</b><a href="tel:+263776527713">+263 77 652 7713</a></p>
+   <p><b>Telephone</b><a href="tel:+263242706476">+263 242 706 476</a></p>
+   <p><b>Email</b><a href="mailto:pinehouseschool@gmail.com">pinehouseschool@gmail.com</a></p>
+   <p><a class="btn btn-g" href="https://wa.me/263776527713?text=Hello%20Pinehouse%20College" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div>
+ </div>
+ <div class="wrap"><iframe class="map" title="Map showing Pinehouse College, Harare CBD" loading="lazy" src="https://www.google.com/maps?q=23+Tanganyika+House+Kwame+Nkrumah+Avenue+Harare&amp;output=embed"></iframe>
+  <p style="margin-top:10px"><a href="https://www.google.com/maps/search/?api=1&amp;query=23+Tanganyika+House+Kwame+Nkrumah+Avenue+Harare" target="_blank" rel="noopener">Open in Google Maps</a></p></div>
+ </section>
+</div>
+</main>
+
+<footer><div class="wrap grid g4">
+ <div><div class="fl"><img src="images/logo.png" alt="Pinehouse College crest"><b style="font:600 1.3rem var(--hf);color:#fff">Pinehouse College</b></div>
+  <p>House of Excellence. Cambridge International and ZIMSEC, Forms 1 to 6, Harare.</p>
+  <span class="soc"><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M13.5 21v-8h2.7l.5-3.2h-3.2V7.9c0-.9.4-1.7 1.8-1.7h1.5V3.4S15.5 3.2 14.3 3.2c-2.6 0-4.1 1.5-4.1 4.2v2.4H7.5V13h2.7v8z"/></svg></a>
+  <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 7.3A4.7 4.7 0 1 0 12 16.7 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM17.2 5.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM16 2.5H8A5.5 5.5 0 0 0 2.5 8v8A5.5 5.5 0 0 0 8 21.5h8a5.5 5.5 0 0 0 5.5-5.5V8A5.5 5.5 0 0 0 16 2.5zm3.8 13.5a3.8 3.8 0 0 1-3.8 3.8H8A3.8 3.8 0 0 1 4.2 16V8A3.8 3.8 0 0 1 8 4.2h8A3.8 3.8 0 0 1 19.8 8z"/></svg></a></span></div>
+ <div><h3>Quick links</h3><ul><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#academics">Academics</a></li><li><a href="#admissions">Admissions &amp; Fees</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul></div>
+ <div><h3>Contact</h3><ul><li>23 Tanganyika House, Cnr 3rd Street &amp; Kwame Nkrumah Avenue, Harare CBD</li><li><a href="tel:+263776527713">+263 77 652 7713</a> (WhatsApp)</li><li><a href="tel:+263242706476">+263 242 706 476</a></li><li><a href="mailto:pinehouseschool@gmail.com">pinehouseschool@gmail.com</a></li></ul></div>
+ <div><h3>Opening hours</h3><ul><li>Monday to Friday</li><li>7:30 AM – 4:00 PM</li></ul></div>
+</div><div class="wrap copy">© 2026 Pinehouse College, Harare. All rights reserved.</div></footer>
+
+<a class="wa" href="https://wa.me/263776527713?text=Hello%20Pinehouse%20College" target="_blank" rel="noopener" aria-label="Chat with Pinehouse College on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.200zm4.5-6.1c-.2-.1-1.500-.7-1.700-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.200-.3.200-.5.100-1.400-.7-2.300-1.200-3.200-2.700-.2-.4.200-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.100-.7.300-.7.700-1 1.500-1 2.300.100 1 .600 2 1.500 3 1.700 2 3.400 2.600 4.500 3 1 .3 1.800.2 2.400.1.700-.1 1.500-.6 1.700-1.200.2-.6.200-1.100.1-1.200-.1-.1-.2-.2-.5-.3z"/></svg></a>
+
+<dialog id="lb"><button class="lb" aria-label="Close">×</button><img alt=""><p></p>
+ <button class="nv" style="left:8px" aria-label="Previous photo">‹</button><button class="nv" style="right:8px" aria-label="Next photo">›</button></dialog>
+
+<img id="g-cert" src="images/cambridge_registered.jpg" alt="" hidden>
+<script>
+(function(){
+var pages=["home","about","academics","admissions","gallery","contact"],
+ nav=document.getElementById("nav"),bt=document.querySelector(".burger");
+// share each photo once: any <img data-use="x"> copies the src of #g-x
+document.querySelectorAll("img[data-use]").forEach(function(i){var s=document.getElementById("g-"+i.dataset.use);if(s)i.src=s.src});
+var strip=document.getElementById("strip");
+["campaign","heritage","sport","trip","radio"].forEach(function(k){var s=document.getElementById("g-"+k);if(s){var i=new Image();i.src=s.src;i.alt=s.alt;i.loading="lazy";strip.appendChild(i)}});
+var desc=document.querySelector('meta[name="description"]');
+function route(){
+ var h=(location.hash||"#home").slice(1);if(pages.indexOf(h)<0)h="home";
+ pages.forEach(function(p){document.getElementById("p-"+p).classList.toggle("on",p===h)});
+ var el=document.getElementById("p-"+h);document.title=el.dataset.title.replace(/&amp;/g,"&");desc.content=el.dataset.desc;
+ document.querySelectorAll("nav a.l").forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+h)});
+ nav.classList.remove("open");bt.setAttribute("aria-expanded","false");window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",route);route();
+bt.onclick=function(){var o=nav.classList.toggle("open");bt.setAttribute("aria-expanded",o)};
+// lightbox
+var lb=document.getElementById("lb"),li=lb.querySelector("img"),lc=lb.querySelector("p"),gs=[].slice.call(document.querySelectorAll("#gal img")),cur=0;
+function show(n){cur=(n+gs.length)%gs.length;li.src=gs[cur].src;li.alt=gs[cur].alt;lc.textContent=gs[cur].alt}
+gs.forEach(function(g,n){g.parentNode.onclick=function(){show(n);lb.showModal()}});
+lb.querySelector(".lb").onclick=function(){lb.close()};
+var nv=lb.querySelectorAll(".nv");nv[0].onclick=function(){show(cur-1)};nv[1].onclick=function(){show(cur+1)};
+lb.addEventListener("click",function(e){if(e.target===lb)lb.close()});
+lb.addEventListener("keydown",function(e){if(e.key==="ArrowLeft")show(cur-1);if(e.key==="ArrowRight")show(cur+1)});
+// contact form -> opens the visitor's email app
+document.getElementById("f").onsubmit=function(e){e.preventDefault();var f=e.target,v=function(n){return f.elements[n].value};
+ var b="Name: "+v("name")+"\nEmail: "+v("email")+"\nPhone: "+v("phone")+"\nEnquiry type: "+v("type")+"\n\n"+v("msg");
+ location.href="mailto:pinehouseschool@gmail.com?subject="+encodeURIComponent(v("type")+" enquiry from "+v("name"))+"&body="+encodeURIComponent(b);
+ document.getElementById("fm").textContent="Thank you. If your email app did not open, write to pinehouseschool@gmail.com."};
+})();
+</script>
+</body>
+</html>
