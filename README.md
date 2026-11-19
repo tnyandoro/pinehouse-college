@@ -10,3 +10,4 @@ Static website (no build step). Open `index.html` in a browser to preview.
 ## Deploy with GitHub Pages
 Settings > Pages > Deploy from a branch > `main` / `(root)`.
 # pinehouse-college
+# pinehouse-college
